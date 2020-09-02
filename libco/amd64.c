@@ -114,7 +114,7 @@ static void (*co_swap)(cothread_t, cothread_t) = 0;
 #endif
 
 static void crash() {
-  assert(0);  /* called only if cothread_t entrypoint returns */
+  //assert(0);  /* called only if cothread_t entrypoint returns */
 }
 
 cothread_t co_active() {
